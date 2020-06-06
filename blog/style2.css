@@ -1,0 +1,239 @@
+.header{
+    height: 3.6em;
+    background-color: #F5F5F5;
+}
+.fa-envelope{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 14px !important;
+    font-style: none;
+    
+}
+.fruveg{
+    font-size: 14px;
+
+}
+.verticalline{
+    border-left: 1px solid #DDDDDD;
+    height: 20px;
+    position: absolute;
+    left: 260px;
+    top: 17px;
+
+}
+.freeship{
+   
+    position: relative;
+    top: 14px;
+    font-size: 13px;
+}
+@font-face {
+    font-family: "fjalla";
+    src: url("FjallaOne-Regular.ttf");
+}
+.heading {
+    color: black;
+    padding-left: 60px;
+    padding-top: 35px;
+    font-family: "fjalla";
+    font-size: 30px;
+
+} 
+
+.navbar{
+    padding-top: 25px;
+    
+}
+.heading1{
+    padding-left: 90px;
+    position: relative;
+    bottom: 20px;
+}
+.mynav a{
+     margin-right: 30px;
+}
+.nav-link:hover {
+    color: green !important;
+    cursor: pointer;
+    font-weight: bolder;
+   }
+
+a{
+    font-size: 20px;
+}
+.card-img{
+    
+    height: 200px;
+    
+}
+.fruitfresh{
+    color: black;
+    text-align: center;
+}
+.head2{
+    margin-top: 50px;
+    /* text-align: center; */
+    text-decoration: underline;
+    color: green;
+}
+.leaf1{
+    margin-left: 220px;
+    position: relative;
+    top: 10px;
+    color: green;
+ }
+ .heading2{
+    position: relative;
+    bottom: 70px;
+} 
+.leaf2{
+    color: green;
+    position: relative;
+   left: 130px;
+   bottom: 45px;
+   
+
+}
+
+
+.footer {
+    background: #F3F6FA;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 576px)
+.col-sm-6 {
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.footer__about {
+    margin-bottom: 30px;
+}
+.footer__about__logo a {
+    display: inline-block;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+.footer__about ul li {
+    position: relative;
+    bottom: 60px;
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 36px;
+    list-style: none;
+}
+@media (min-width: 576px)
+.col-sm-6 {
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.footer__widget {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.footer__widget h6 {
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer__widget ul {
+    width: 50%;
+    float: left;
+}
+.footer__widget ul li {
+    list-style: none;
+
+
+}
+.footer__widget ul li a {
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 32px;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.footer__widget form input {
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+}
+button, input {
+    overflow: visible;
+}
+.footer__widget form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 26px;
+    height: 100%;
+}
+.site-btn {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+   
+    background: #7fad39;
+    border: none;
+}
+.footer__widget p {
+    font-size: 14px;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+}
+.footer__widget form {
+    position: relative;
+    margin-bottom: 30px;
+}
+.footer__widget .footer__widget__social a {
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+    font-size: 16px;
+    color: #404040;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    background: #ffffff;
+    transition: all, 0.3s;
+    margin-right: 10px;
+}
